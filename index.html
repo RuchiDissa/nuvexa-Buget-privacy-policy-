@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="NUVEXA Budget Privacy Policy - Learn how NUVEXA Budget handles your information."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <title>NUVEXA Budget — Privacy Policy</title>
+
+    <style>
+        :root {
+            --bg: #020907;
+            --surface: #071510;
+            --surface-light: #0b1c15;
+
+            --primary: #34d399;
+            --primary-dark: #10b981;
+
+            --blue: #38bdf8;
+            --cyan: #22d3ee;
+
+            --orange: #fb923c;
+            --red: #fb7185;
+
+            --border: #163328;
+
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --white: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                Inter,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Arial,
+                sans-serif;
+
+            background:
+                radial-gradient(
+                    circle at top,
+                    rgba(52, 211, 153, 0.10),
+                    transparent 35%
+                ),
+                var(--bg);
+
+            color: var(--text);
+            line-height: 1.75;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        header {
+            padding: 70px 0 55px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 22px;
+
+            filter:
+                drop-shadow(
+                    0 0 25px rgba(52, 211, 153, 0.18)
+                );
+        }
+
+        .brand {
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            color: var(--white);
+            font-size: clamp(36px, 7vw, 56px);
+            line-height: 1.1;
+            margin-bottom: 14px;
+        }
+
+        .subtitle {
+            max-width: 620px;
+            margin: 0 auto;
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .updated {
+            margin-top: 18px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        /* =========================
+           MAIN
+        ========================= */
+
+        main {
+            padding: 55px 0 80px;
+        }
+
+        .intro {
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(7, 21, 16, 0.98),
+                    rgba(11, 28, 21, 0.94)
+                );
+
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            padding: 30px;
+
+            margin-bottom: 45px;
+
+            box-shadow:
+                0 20px 60px rgba(0, 0, 0, 0.25);
+        }
+
+        section {
+            margin-bottom: 42px;
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 22px;
+            line-height: 1.3;
+            margin-bottom: 16px;
+        }
+
+        h2::before {
+            content: "";
+
+            display: inline-block;
+
+            width: 4px;
+            height: 22px;
+
+            background:
+                linear-gradient(
+                    to bottom,
+                    var(--primary),
+                    var(--blue)
+                );
+
+            border-radius: 5px;
+
+            margin-right: 11px;
+
+            vertical-align: -3px;
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            color: var(--muted);
+            margin: 10px 0 18px 25px;
+        }
+
+        li {
+            margin-bottom: 7px;
+            padding-left: 3px;
+        }
+
+        strong {
+            color: var(--text);
+        }
+
+        /* =========================
+           FEATURE CARDS
+        ========================= */
+
+        .feature-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, minmax(0, 1fr));
+
+            gap: 14px;
+
+            margin: 25px 0;
+        }
+
+        .feature {
+            background: var(--surface);
+
+            border: 1px solid var(--border);
+
+            border-radius: 17px;
+
+            padding: 18px;
+
+            transition:
+                transform 0.25s ease,
+                border-color 0.25s ease,
+                background 0.25s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-3px);
+
+            border-color:
+                rgba(52, 211, 153, 0.35);
+
+            background:
+                var(--surface-light);
+        }
+
+        .feature-icon {
+            width: 42px;
+            height: 42px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 13px;
+
+            background:
+                rgba(52, 211, 153, 0.10);
+
+            color: var(--primary);
+
+            font-size: 20px;
+
+            margin-bottom: 12px;
+        }
+
+        .feature h3 {
+            color: var(--white);
+
+            font-size: 13px;
+
+            margin-bottom: 5px;
+        }
+
+        .feature p {
+            font-size: 12px;
+
+            margin-bottom: 0;
+        }
+
+        /* =========================
+           CONTACT
+        ========================= */
+
+        .contact {
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(52, 211, 153, 0.10),
+                    rgba(56, 189, 248, 0.04)
+                );
+
+            border:
+                1px solid
+                rgba(52, 211, 153, 0.25);
+
+            border-radius: 22px;
+
+            padding: 30px;
+
+            margin-top: 10px;
+        }
+
+        .contact h2 {
+            margin-bottom: 18px;
+        }
+
+        .contact p {
+            margin-bottom: 8px;
+        }
+
+        .email {
+            color: var(--primary);
+
+            text-decoration: none;
+
+            transition:
+                color 0.2s ease;
+        }
+
+        .email:hover {
+            color: var(--cyan);
+
+            text-decoration: underline;
+        }
+
+        /* =========================
+           NOTICE BOX
+        ========================= */
+
+        .notice {
+            background:
+                rgba(56, 189, 248, 0.06);
+
+            border:
+                1px solid
+                rgba(56, 189, 248, 0.15);
+
+            border-radius: 16px;
+
+            padding: 18px 20px;
+
+            margin-top: 20px;
+        }
+
+        .notice-title {
+            color: var(--blue);
+
+            font-size: 12px;
+
+            font-weight: 800;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 7px;
+        }
+
+        .notice p {
+            margin-bottom: 0;
+
+            font-size: 13px;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+            border-top: 1px solid var(--border);
+
+            padding: 28px 0;
+
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0 0 5px;
+
+            font-size: 13px;
+
+            color: #64748b;
+        }
+
+        /* =========================
+           BACK TO TOP
+        ========================= */
+
+        .top-button {
+            position: fixed;
+
+            right: 20px;
+            bottom: 20px;
+
+            width: 44px;
+            height: 44px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: var(--surface-light);
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius: 14px;
+
+            color: var(--primary);
+
+            text-decoration: none;
+
+            font-size: 18px;
+
+            box-shadow:
+                0 10px 30px
+                rgba(0, 0, 0, 0.25);
+
+            transition:
+                transform 0.2s ease,
+                background 0.2s ease;
+        }
+
+        .top-button:hover {
+            transform: translateY(-3px);
+
+            background:
+                rgba(52, 211, 153, 0.10);
+        }
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            .container {
+                width:
+                    min(
+                        100% - 24px,
+                        900px
+                    );
+            }
+
+            header {
+                padding: 50px 0 40px;
+            }
+
+            .logo {
+                width: 82px;
+                height: 82px;
+            }
+
+            main {
+                padding: 35px 0 55px;
+            }
+
+            .intro,
+            .contact {
+                padding: 22px;
+
+                border-radius: 17px;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p,
+            li {
+                font-size: 15px;
+            }
+
+            .subtitle {
+                font-size: 14px;
+            }
+
+            .top-button {
+                right: 15px;
+                bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+
+<body id="top">
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="container">
+
+            <img
+                src="images/logo.png"
+                alt="NUVEXA Budget Logo"
+                class="logo"
+            >
+
+            <div class="brand">
+                NUVEXA
+            </div>
+
+            <h1>
+                Privacy Policy
+            </h1>
+
+            <p class="subtitle">
+                Privacy information for the
+                NUVEXA Budget personal finance
+                and budgeting application.
+            </p>
+
+            <p class="updated">
+                Last updated:
+                October 4, 2026
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+        <div class="container">
+
+
+            <!-- INTRO -->
+
+            <div class="intro">
+
+                <p>
+                    <strong>NUVEXA Budget</strong>
+                    ("NUVEXA Budget", "the App",
+                    "we", "our", or "us") is a
+                    personal finance and budgeting
+                    application designed to help
+                    users record income and expenses,
+                    manage budgets, review financial
+                    activity, and monitor spending
+                    progress.
+                </p>
+
+                <p>
+                    This Privacy Policy explains
+                    what information the App handles,
+                    how that information is stored
+                    and used, and what choices you
+                    have when using NUVEXA Budget.
+                </p>
+
+            </div>
+
+
+            <!-- SECTION 1 -->
+
+            <section>
+
+                <h2>
+                    1. Information Stored by the App
+                </h2>
+
+                <p>
+                    NUVEXA Budget allows you to
+                    enter and manage information
+                    such as:
+                </p>
+
+
+                <div class="feature-grid">
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            💰
+                        </div>
+
+                        <h3>
+                            Transactions
+                        </h3>
+
+                        <p>
+                            Income, expenses,
+                            amounts, titles,
+                            categories and dates.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            📊
+                        </div>
+
+                        <h3>
+                            Budget Information
+                        </h3>
+
+                        <p>
+                            Budget limits, totals
+                            and spending progress.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            👤
+                        </div>
+
+                        <h3>
+                            Profile
+                        </h3>
+
+                        <p>
+                            Optional profile
+                            information you
+                            choose to provide.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            🔔
+                        </div>
+
+                        <h3>
+                            Preferences
+                        </h3>
+
+                        <p>
+                            Notification and
+                            application settings.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <p>
+                    The information you enter is
+                    used to provide the budgeting
+                    and financial-management
+                    features of the App.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 2 -->
+
+            <section>
+
+                <h2>
+                    2. Local Data Storage
+                </h2>
+
+                <p>
+                    NUVEXA Budget is designed to
+                    store your budgeting information
+                    locally on your device.
+                </p>
+
+                <p>
+                    The App uses local database
+                    and storage functionality for
+                    information required by features
+                    such as:
+                </p>
+
+                <ul>
+                    <li>
+                        Transaction records
+                    </li>
+
+                    <li>
+                        Income and expense totals
+                    </li>
+
+                    <li>
+                        Categories
+                    </li>
+
+                    <li>
+                        Budget information
+                    </li>
+
+                    <li>
+                        Profile information
+                    </li>
+
+                    <li>
+                        Application settings
+                    </li>
+
+                    <li>
+                        Notification preferences
+                    </li>
+                </ul>
+
+                <p>
+                    Based on the current functionality
+                    of the App, your financial records
+                    are not automatically uploaded to
+                    a NUVEXA-operated cloud database.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 3 -->
+
+            <section>
+
+                <h2>
+                    3. Financial Information
+                </h2>
+
+                <p>
+                    NUVEXA Budget may contain
+                    financial information that
+                    you personally enter, including
+                    income amounts, expense amounts,
+                    budgets, transaction descriptions,
+                    and spending categories.
+                </p>
+
+                <p>
+                    NUVEXA Budget does not currently
+                    connect to your bank account or
+                    financial institution.
+                </p>
+
+                <p>
+                    The App does not require you
+                    to provide bank account passwords,
+                    credit-card passwords,
+                    online-banking credentials,
+                    or similar authentication
+                    credentials.
+                </p>
+
+                <p>
+                    NUVEXA Budget is a budgeting
+                    and record-keeping tool. It
+                    does not provide banking,
+                    investment, tax, accounting,
+                    or financial-advisory services.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 4 -->
+
+            <section>
+
+                <h2>
+                    4. Personal Information
+                </h2>
+
+                <p>
+                    The App may allow you to enter
+                    optional profile information,
+                    such as a name or nickname.
+                </p>
+
+                <p>
+                    NUVEXA Budget does not currently
+                    require you to create an online
+                    account.
+                </p>
+
+                <p>
+                    The App does not require an
+                    email address, telephone number,
+                    or password to use its core
+                    budgeting functionality.
+                </p>
+
+                <p>
+                    If you voluntarily enter personal
+                    information into the App, that
+                    information may be stored locally
+                    on your device as part of your
+                    application data.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 5 -->
+
+            <section>
+
+                <h2>
+                    5. Notifications and Reminders
+                </h2>
+
+                <p>
+                    NUVEXA Budget may provide local
+                    notifications and reminders
+                    related to budgeting or financial
+                    activity.
+                </p>
+
+                <p>
+                    Notification schedules and related
+                    preferences are configured and
+                    scheduled locally on your device.
+                </p>
+
+                <p>
+                    The App does not require a remote
+                    push-notification server for these
+                    local reminders.
+                </p>
+
+                <p>
+                    You can control notification
+                    permissions through your device's
+                    operating-system settings and
+                    through notification settings
+                    available within the App.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 6 -->
+
+            <section>
+
+                <h2>
+                    6. How Your Information Is Used
+                </h2>
+
+                <p>
+                    Information stored in NUVEXA
+                    Budget is used to provide and
+                    operate the functionality of
+                    the App.
+                </p>
+
+                <p>
+                    Transaction information may
+                    be used locally to calculate:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Total income
+                    </li>
+
+                    <li>
+                        Total expenses
+                    </li>
+
+                    <li>
+                        Current balance
+                    </li>
+
+                    <li>
+                        Budget usage
+                    </li>
+
+                    <li>
+                        Category totals
+                    </li>
+
+                    <li>
+                        Spending progress
+                    </li>
+
+                    <li>
+                        Financial summaries
+                        and charts
+                    </li>
+
+                </ul>
+
+                <p>
+                    These calculations are
+                    performed for the functionality
+                    of the App and do not mean
+                    that your financial information
+                    is being sent to an external
+                    financial service.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 7 -->
+
+            <section>
+
+                <h2>
+                    7. Data Sharing
+                </h2>
+
+                <p>
+                    Based on the current
+                    functionality of NUVEXA Budget,
+                    we do not sell, rent, or
+                    otherwise share your financial
+                    records with advertisers,
+                    data brokers, or third parties
+                    for advertising purposes.
+                </p>
+
+                <p>
+                    The App does not currently
+                    provide your transaction history
+                    to third-party advertising
+                    networks.
+                </p>
+
+                <p>
+                    If future versions introduce
+                    third-party services, cloud
+                    synchronization, analytics,
+                    advertising, account systems,
+                    or other features that materially
+                    change how information is handled,
+                    this Privacy Policy will be
+                    updated accordingly.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 8 -->
+
+            <section>
+
+                <h2>
+                    8. Third-Party Software
+                </h2>
+
+                <p>
+                    NUVEXA Budget may use third-party
+                    software libraries and platform
+                    services to provide features
+                    such as:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Local database storage
+                    </li>
+
+                    <li>
+                        Local notifications
+                    </li>
+
+                    <li>
+                        File creation or export
+                    </li>
+
+                    <li>
+                        Image selection
+                    </li>
+
+                    <li>
+                        User-interface functionality
+                    </li>
+
+                </ul>
+
+                <p>
+                    These components are used to
+                    provide functionality within
+                    the App.
+                </p>
+
+                <p>
+                    The use of a software library
+                    does not necessarily mean that
+                    your financial records are
+                    transmitted to the developer
+                    or to a third party.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 9 -->
+
+            <section>
+
+                <h2>
+                    9. Data Security
+                </h2>
+
+                <p>
+                    NUVEXA Budget is designed to
+                    keep application information
+                    on your device.
+                </p>
+
+                <p>
+                    However, no digital storage
+                    system can be guaranteed to
+                    be completely secure.
+                </p>
+
+                <p>
+                    The security of locally stored
+                    information also depends on
+                    the security of your device
+                    and operating system.
+                </p>
+
+                <p>
+                    We recommend using appropriate
+                    device security measures such as:
+                </p>
+
+                <ul>
+
+                    <li>
+                        A device screen lock
+                        or passcode
+                    </li>
+
+                    <li>
+                        Current operating-system
+                        updates
+                    </li>
+
+                    <li>
+                        Trusted application sources
+                    </li>
+
+                    <li>
+                        Protection against
+                        unauthorized device access
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <!-- SECTION 10 -->
+
+            <section>
+
+                <h2>
+                    10. Data Deletion
+                </h2>
+
+                <p>
+                    Because NUVEXA Budget primarily
+                    stores application information
+                    locally, you can delete
+                    information using the deletion
+                    functionality available within
+                    the App.
+                </p>
+
+                <p>
+                    You may also remove the App
+                    from your device.
+                </p>
+
+                <p>
+                    Depending on your device and
+                    operating system, uninstalling
+                    the App may remove its locally
+                    stored application data.
+                </p>
+
+                <p>
+                    If you export financial
+                    information to files outside
+                    the App, deleting NUVEXA Budget
+                    does not necessarily delete
+                    those exported files.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 11 -->
+
+            <section>
+
+                <h2>
+                    11. Exported Data
+                </h2>
+
+                <p>
+                    If NUVEXA Budget provides an
+                    export feature, exported
+                    information may be saved as
+                    a file on your device or in
+                    a location selected by you.
+                </p>
+
+                <p>
+                    Once information has been
+                    exported, the handling and
+                    security of that exported
+                    file depends on the storage
+                    location and services you
+                    choose to use.
+                </p>
+
+                <p>
+                    If you manually share an
+                    exported file through email,
+                    cloud storage, messaging
+                    applications, or another
+                    service, that service may
+                    process the file according
+                    to its own privacy policy.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 12 -->
+
+            <section>
+
+                <h2>
+                    12. Children's Privacy
+                </h2>
+
+                <p>
+                    NUVEXA Budget is a general-purpose
+                    personal finance application.
+                </p>
+
+                <p>
+                    The App does not knowingly
+                    collect personal information
+                    from children through a remote
+                    online account or cloud service.
+                </p>
+
+                <p>
+                    Because the App is intended
+                    for personal financial management,
+                    parents or guardians should
+                    determine whether the App is
+                    appropriate for their children.
+                </p>
+
+            </section>
+
+
+            <!-- SECTION 13 -->
+
+            <section>
+
+                <h2>
+                    13. Changes to This Privacy Policy
+                </h2>
+
+                <p>
+                    We may update this Privacy
+                    Policy if the functionality
+                    of NUVEXA Budget, our data
+                    practices, or applicable
+                    requirements change.
+                </p>
+
+                <p>
+                    When this Privacy Policy is
+                    updated, the "Last updated"
+                    date at the top of this page
+                    will also be updated.
+                </p>
+
+                <p>
+                    If a future version of NUVEXA
+                    Budget introduces accounts,
+                    cloud synchronization, online
+                    backup, analytics, advertising,
+                    financial-service integrations,
+                    or other features that change
+                    the way personal information
+                    is processed, this Privacy
+                    Policy will be updated to
+                    explain those practices.
+                </p>
+
+            </section>
+
+
+            <!-- CONTACT -->
+
+            <section class="contact">
+
+                <h2>
+                    14. Contact
+                </h2>
+
+                <p>
+                    If you have questions, concerns,
+                    or requests regarding this
+                    Privacy Policy or NUVEXA Budget's
+                    privacy practices, please contact:
+                </p>
+
+                <p>
+                    <strong>
+                        Developer:
+                    </strong>
+                    RD_Developers
+                </p>
+
+                <p>
+                    <strong>
+                        Email:
+                    </strong>
+
+                    <a
+                        class="email"
+                        href="mailto:ruchiradissanayaka2@gmail.com"
+                    >
+                        ruchiradissanayaka2@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>
+                        App:
+                    </strong>
+                    NUVEXA Budget
+                </p>
+
+            </section>
+
+
+            <!-- IMPORTANT NOTICE -->
+
+            <section>
+
+                <h2>
+                    15. Important Notice
+                </h2>
+
+                <p>
+                    NUVEXA Budget is intended to
+                    help users organize and monitor
+                    their own financial information.
+                </p>
+
+                <p>
+                    The App does not provide
+                    professional financial,
+                    investment, tax, legal,
+                    accounting, or banking advice.
+                </p>
+
+                <p>
+                    Users are responsible for the
+                    accuracy of information they
+                    enter into the App and for
+                    maintaining the security of
+                    their device and any exported
+                    financial files.
+                </p>
+
+
+                <div class="notice">
+
+                    <div class="notice-title">
+                        Privacy at a glance
+                    </div>
+
+                    <p>
+                        NUVEXA Budget is designed
+                        around local storage.
+                        Your budgeting records are
+                        intended to remain on your
+                        device rather than being
+                        automatically uploaded to
+                        a NUVEXA cloud service.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 RD_Developers.
+                All rights reserved.
+            </p>
+
+            <p>
+                NUVEXA Budget
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+
+    <a
+        href="#top"
+        class="top-button"
+        aria-label="Back to top"
+        title="Back to top"
+    >
+        ↑
+    </a>
+
+</body>
+</html>
